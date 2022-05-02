@@ -3,7 +3,6 @@
 <h4>The aim of the project was to analyze the dataset and create an ML model that would predict the fare for the flight. We have used Python Libraries for data analysis and model creation (backend) and HTML and CSS for creating Web UI for the project.</h4>
 
 <h4>You can see and use our project live on : https://lnkd.in/gqyiFWY7</h4>
-<br>
 <h4>To see the Demo and Explanation of the Project, visit : https://youtu.be/TnMNT8dyUZ8</h4>
 <br>
 
@@ -15,6 +14,8 @@
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.3 About Us Page<br> 
 2. User Input<br>
 3. Result Page<br><br>
+</h4>
+
 <h2>1. Web Interface</h2>
 <h3>1.1 Landing Page</h3>
 <h4>When the User land on our webpage, he/she sees a webpage welcoming them to Flight Fare Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.</h4>
@@ -35,3 +36,6 @@ After providing the required input and pressing the submit button, the page refr
 <br>
 <img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/d0badd766984d5569255712494f3dbfe278fd174/static/images/About%20Us%20Page.png">
 <br><br>
+  
+<h2>2. User Input</h2>
+On the predictor page, the user has to provide all the information asked for the prediction. The user can select from the drop down lists attached to each of the input fields. Once, all the asked information is provided, the user clicks on submit button to get the output.
