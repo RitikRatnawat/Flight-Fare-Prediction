@@ -4,7 +4,6 @@
 
 #### You can see and use our project live on : https://lnkd.in/gqyiFWY7
 
-
 ## 1. Web Interface
 ### 1.1 Landing Page
 #### When the User land on our webpage, he/she sees a webpage welcoming them to Flight Fare Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.
