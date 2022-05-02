@@ -9,3 +9,11 @@
 <h4>When the User land on our webpage, he/she sees a webpage welcoming them to Flight Fare Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.</h4>
 <br>
 <img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/7a9f498abdcdedc7cfcc35a23644e7cf33ba26fd/static/images/Welcome%20Page.png">
+<br><br>
+
+<h3>1.2 Predictor Page</h3>
+<h4>This is the next page that can be accessed by clicking on ‘Lets Go!’ button on the homepage or by clicking on predictor tab in the navigation bar on the homepage
+The user sees various fields asking for information that is required to predict the price of a flight. Every user input has its own dropdown where the user can select their input.
+After providing the required input and pressing the submit button, the page refreshes and displays the predicted price of the flight.</h4>
+<br>
+<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/90ba410ad7168da23b25c58fd8dd1b1e218ea24b/static/images/Predictor%20Page.png">
