@@ -7,3 +7,5 @@
 <h2>1. Web Interface</h2>
 <h3>1.1 Landing Page</h3>
 <h4>When the User land on our webpage, he/she sees a webpage welcoming them to Flight Fare Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.</h4>
+<br>
+<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/7a9f498abdcdedc7cfcc35a23644e7cf33ba26fd/static/images/Welcome%20Page.png">
