@@ -6,6 +6,15 @@
 <br>
 <h4>To see the Demo and Explanation of the Project, visit : https://youtu.be/TnMNT8dyUZ8</h4>
 <br>
+
+<h1>Content</h1>
+<h4>
+1. Web Interface<br>
+&nbsp1.1 Landing Page<br> 
+&nbsp1.2 Predictor Page<br> 
+&nbsp1.3 About Us Page<br> 
+2. User Input<br>
+3. Result Page<br>
 <h2>1. Web Interface</h2>
 <h3>1.1 Landing Page</h3>
 <h4>When the User land on our webpage, he/she sees a webpage welcoming them to Flight Fare Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.</h4>
@@ -23,3 +32,6 @@ After providing the required input and pressing the submit button, the page refr
 
 <h3>1.3 About Us Page</h3>
 <h4>The About us page holds a short summary about the people who have contributed in building this project. There are social links attached as well in case someone wants to contact the people behind this project.</h4>
+<br>
+<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/d0badd766984d5569255712494f3dbfe278fd174/static/images/About%20Us%20Page.png">
+<br><br>
