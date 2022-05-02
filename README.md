@@ -10,9 +10,9 @@
 <h1>Content</h1>
 <h4>
 1. Web Interface<br>
-&nbsp1.1 Landing Page<br> 
-&nbsp1.2 Predictor Page<br> 
-&nbsp1.3 About Us Page<br> 
+&nbsp&nbsp&nbsp&nbsp1.1 Landing Page<br> 
+&nbsp&nbsp&nbsp&nbsp1.2 Predictor Page<br> 
+&nbsp&nbsp&nbsp&nbsp1.3 About Us Page<br> 
 2. User Input<br>
 3. Result Page<br>
 <h2>1. Web Interface</h2>
