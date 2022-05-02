@@ -38,4 +38,13 @@ After providing the required input and pressing the submit button, the page refr
 <br><br>
   
 <h2>2. User Input</h2>
-On the predictor page, the user has to provide all the information asked for the prediction. The user can select from the drop down lists attached to each of the input fields. Once, all the asked information is provided, the user clicks on submit button to get the output.
+<h4>On the predictor page, the user has to provide all the information asked for the prediction. The user can select from the drop down lists attached to each of the input fields. Once, all the asked information is provided, the user clicks on submit button to get the output.</h4>
+<br>
+<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/4a87f498af2235372e455285c6dbb6c6947252f1/static/images/Predictor%20Page%20with%20Input.png">
+<br><br>
+
+<h2>3. Results Page</h2>
+<h4>On the predictor page, the user provides all the asked information and then clicks on submit button. The predicted fare of the selected flight is displayed to the user.</h4>
+<br>
+<img src = "https://github.com/RitikRatnawat/Flight-Fare-Prediction/blob/4a87f498af2235372e455285c6dbb6c6947252f1/static/images/Predictor%20Page%20with%20Output.png">
+<br><br>
