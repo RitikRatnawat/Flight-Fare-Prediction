@@ -10,11 +10,11 @@
 <h1>Content</h1>
 <h4>
 1. Web Interface<br>
-&nbsp&nbsp&nbsp&nbsp1.1 Landing Page<br> 
-&nbsp&nbsp&nbsp&nbsp1.2 Predictor Page<br> 
-&nbsp&nbsp&nbsp&nbsp1.3 About Us Page<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.1 Landing Page<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.2 Predictor Page<br> 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1.3 About Us Page<br> 
 2. User Input<br>
-3. Result Page<br>
+3. Result Page<br><br>
 <h2>1. Web Interface</h2>
 <h3>1.1 Landing Page</h3>
 <h4>When the User land on our webpage, he/she sees a webpage welcoming them to Flight Fare Prediction System and ask them to move further by clicking on the ‘Lets Go!’ button.</h4>
