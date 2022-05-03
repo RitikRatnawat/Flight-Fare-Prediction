@@ -3,7 +3,7 @@ import sklearn
 import pickle
 import pandas as pd
 
-file = open(r"C:\Users\Genius\Desktop\Flight Fare Prediction\fare_predict.pkl", "rb")
+file = open(r"fare_predict.pkl", "rb")
 model = pickle.load(file)
 
 app = Flask(__name__)
@@ -41,241 +41,96 @@ def predict():
         # Airline
         airline = request.form["Airline"]
         
+        Jet_Airways = 0
+        IndiGo = 0
+        Air_India = 0
+        Multiple_carriers = 0
+        SpiceJet = 0
+        Vistara = 0
+        Go_Air = 0 
+        Multiple_carriers_Premium_economy = 0
+        Vistara_Premium_economy = 0
+        Jet_Airways_Business = 0
+        Trujet = 0
+        
         if airline == "Jet Airways":
             Jet_Airways = 1
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         elif airline == "IndiGo":
-            Jet_Airways = 0
             IndiGo = 1
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
-            
+           
         elif airline == "Air India":
-            Jet_Airways = 0
-            IndiGo = 0
             Air_India = 1
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         elif airline == "Multiple carriers":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
             Multiple_carriers = 1
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         elif airline == "SpiceJet":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
             SpiceJet = 1
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         elif airline == "Vistara":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
             Vistara = 1
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         elif airline == "GoAir":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
             Go_Air = 1
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
-        elif airline == "Multiple carriers Premium Economy":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
+        elif airline == "Multiple carriers Premium Economy": 
             Multiple_carriers_Premium_economy = 1
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         elif airline == "Vistara Premium economy":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
             Vistara_Premium_economy = 1
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         elif airline == "Jet Airways Business":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
             Jet_Airways_Business = 1
-            Trujet = 0
-            
+             
         elif airline == "Trujet":
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
             Trujet = 1
-            
-        else:
-            Jet_Airways = 0
-            IndiGo = 0
-            Air_India = 0
-            Multiple_carriers = 0
-            SpiceJet = 0
-            Vistara = 0
-            Go_Air = 0 
-            Multiple_carriers_Premium_economy = 0
-            Vistara_Premium_economy = 0
-            Jet_Airways_Business = 0
-            Trujet = 0
             
         
         # Source
         source = request.form["Source"]
         
+        s_Delhi = 0
+        s_Kolkata = 0
+        s_Mumbai = 0
+        s_Chennai = 0
+        
         if source == "Delhi":
             s_Delhi = 1
-            s_Kolkata = 0
-            s_Mumbai = 0
-            s_Chennai = 0
             
         elif source == "Kolkata":
-            s_Delhi = 0
             s_Kolkata = 1
-            s_Mumbai = 0
-            s_Chennai = 0
             
         elif source == "Mumbai":
-            s_Delhi = 0
-            s_Kolkata = 0
             s_Mumbai = 1
-            s_Chennai = 0
         
         elif source == "Chennai":
-            s_Delhi = 0
-            s_Kolkata = 0
-            s_Mumbai = 0
             s_Chennai = 1
-            
-        else:
-            s_Delhi = 0
-            s_Kolkata = 0
-            s_Mumbai = 0
-            s_Chennai = 0
             
         
         # Destination
         destination = request.form["Destination"]
         
+        d_Cochin = 0
+        d_Delhi = 0
+        d_New_Delhi = 0
+        d_Hyderabad = 0
+        d_Kolkata = 0
+        
         if destination == "Cochin":
             d_Cochin = 1
-            d_Delhi = 0
-            d_New_Delhi = 0
-            d_Hyderabad = 0
-            d_Kolkata = 0
             
         elif destination == "Delhi":
-            d_Cochin = 0
             d_Delhi = 1
-            d_New_Delhi = 0
-            d_Hyderabad = 0
-            d_Kolkata = 0
             
         if destination == "New Delhi":
-            d_Cochin = 0
-            d_Delhi = 0
             d_New_Delhi = 1
-            d_Hyderabad = 0
-            d_Kolkata = 0
             
         if destination == "Hyderabad":
-            d_Cochin = 0
-            d_Delhi = 0
-            d_New_Delhi = 0
             d_Hyderabad = 1
-            d_Kolkata = 0
             
         if destination == "Kolkata":
-            d_Cochin = 0
-            d_Delhi = 0
-            d_New_Delhi = 0
-            d_Hyderabad = 0
             d_Kolkata = 1
-            
-        else:
-            d_Cochin = 0
-            d_Delhi = 0
-            d_New_Delhi = 0
-            d_Hyderabad = 0
-            d_Kolkata = 0
             
             
         prediction = model.predict([[
